@@ -1,0 +1,216 @@
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074136__340.jpg");
+    background-repeat: repeat;
+}
+ 
+ header {
+ 	background-color: red;
+ 	width: 976px;
+ 	position: fixed;
+ 	top: 0;
+ 	padding: .8em 0 0.8em 1.5em;
+    z-index: 1;
+ 	}
+
+.logo1 {
+	float: left;
+}
+
+ #naslov {
+ 	color: white;
+ 	padding-left: 8em;
+ 	text-shadow: 5px 5px 8px #1c3690;
+ 	font-family: Verdana, sans-serif;
+ }
+
+ span {
+ 	font-size: 1.3em;
+ }
+
+ nav {	
+ 	position: fixed;
+ 	top: 132.41px;
+ 	width: 1000px;
+    z-index: 1;
+ }
+
+ .navbar {
+    background-color: #880d00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+#poc {
+    background-color: red;
+}
+
+#poc:hover {
+    background-color: #ce993e;
+    color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ce993e;
+    font-weight: 600;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: scroll;
+}
+
+.dropdown-content a {
+	font-size: 12px;
+    float: none;
+    color: black;
+    font-weight: 400;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+	width: 1000px;
+ 	background-color: #f9f5ea;
+    float: left;
+    margin-top: 162.41px;
+    margin-bottom: 57px;
+}
+
+.content {
+    float: left;
+	width: 760px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 3px solid #1c3690;
+	}
+
+
+#p1 {
+	float: left;
+    margin-right: 20px;
+}
+
+#p2 {
+	float: right;
+	/*padding-top: 20px;*/
+	/*margin-right: 10px;*/
+	margin-left: 20px;
+}
+
+#p3 {
+    float: left;
+    margin-right: 20px;
+}
+
+#p4 {
+    float: right;
+    margin-left: 20px;
+}
+
+#p1,#p2,#p3,#p4 {
+    z-index: 0;
+}
+
+p.prica {
+    text-align: justify;
+    border-top: 2px dashed #1c3690;
+    font-family: Verdana, Times, sans-serif;
+}
+
+.sl:hover {
+	opacity: 0.7;
+}
+
+#sidebar {
+	width: 197px;
+	margin-left: -4px;
+    float: right;
+}
+
+h4 {
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 5px #1c3690;
+    font-family: Verdana, sans-serif;
+
+}
+.b {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.content, #sidebar {
+	display: inline-block;
+}
+
+footer {
+	text-decoration: none;
+ 	background-color: #880d00;
+ 	width: 1000px;
+ 	position: fixed;
+    bottom: 0;
+ 	color: white;
+}
+
+.pro {
+	display: inline-block;
+	margin: 10px 20px;
+	vertical-align: text-top;
+}
+#pro1 {
+	margin-right: 160px;
+}
+#pro2 {
+	margin-left: 50px;
+}
+span.karte {
+	color: #1c3690;
+	font-size: 1em;
+}
