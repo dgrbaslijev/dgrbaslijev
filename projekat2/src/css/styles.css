@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+main {
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid #ECECEC;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px;
+}
+h2, h3 {
+  font-family: "Courier New", Times, sans-serif;
+  color: gray;
+}
+h2{
+  color: black;
+  width: 80%;
+  font-weight: 600;
+}
+#unos, #filterInput {
+  display: flex;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+#unos:focus { outline: none; }
+#button1 {
+  background-color: lightseagreen;
+  color: white;
+  font-size: .7em;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid lightseagreen;
+  border-radius: 4px;
+}
+#button2 {
+  background-color: black;
+  color: white;
+  font-size: .7em;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+  border: 1px solid #e3e3e3;
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 1.1em;
+}
+
+ul li:hover {
+  background-color: #e3e3e3;
+  font-family: "Times New Roman", sans-serif;
+  color: lightseagreen;
+}
+.zatvori {
+  margin: 0;
+  padding: 0;
+  float: right;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.zatvori:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 500px){
+  body {
+    width: 90%;
+  }
+}
+
+
+
+
